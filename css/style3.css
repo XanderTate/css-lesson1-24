@@ -47,6 +47,16 @@ body {
     list-style-type: none;
 }
 
+.nav-link {
+    color: blue;
+    text-decoration: none;
+    transition: color .5s ease-in;
+}
+
+.nav-link:hover {
+    color: yellowgreen;
+}
+
 .row {
     display: flex;
     flex-direction: row-reverse;
@@ -109,8 +119,8 @@ body {
 }
 
 #myName {
-    color: var(--prim)
-    font-family:var(--font1);
+    color: var(--prim);
+    font-family: var(--font1);
     font-size: 48px;
 }
 
