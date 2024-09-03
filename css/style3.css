@@ -108,6 +108,12 @@ body {
     /* border: 1px solid yellowgreen; */
 }
 
+#myName {
+    color: var(--prim)
+    font-family:var(--font1);
+    font-size: 48px;
+}
+
 #row1 {
     flex-direction: row-reverse;
 }
